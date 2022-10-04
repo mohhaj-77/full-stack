@@ -1,0 +1,53 @@
+.register{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin-top:150px auto; /*ortada olsun diye ama olmadı*/
+    overflow: hidden;
+
+    }
+
+    .register form{
+        background-color:#fff;
+        border: 1px solid #fff;
+        box-sizing:border-box ;
+        text-align: left;
+        padding: 10px;
+
+        }
+    .register form label{
+        text-transform:uppercase;
+        color:black;
+        font-size:16px;
+        display: block;/*burdada düzeltme*/
+        font-weight: bold;
+        margin: 10px 0px;
+        }
+    .register form input{
+        display:block; /*display her hangi yerde düzetir yazı ve inputleri üst üste ayarlar bir tanesi mevcut ise yeter ama iyi bir şekilde tutmamız için yani kesinlik için gerekli*/
+        width:90%;
+        padding: 5px; /*mesafeler eklemesi boşluk içinde burada*/
+        color:black;
+        max-width: 90%;
+        font-weight: bold;
+        font-size: 16px;
+        background-color:#fff;
+        border: 1px solid #ccc;/*solid kenarları çok ince olsun auto yanları kalın olsun*/
+        height: 40px;
+        border-radius:100px; /*input boşlukları yanlarını çevirmesi*/
+        margin:10px 0px; /*bir satır sonraki satrın arasındaki mesafe(tüm sayfayı içerisinde)*/
+        }
+        .register form button{
+        background-color:rgb(95, 94, 131);
+        border: 1px auto rgb(62, 63, 65);
+        color:rgb(34, 34, 37);
+        text-align: center;
+        height:40px ;
+        width: 140px;
+        margin: 10px;/*yani üstünden ve aşağından 10px */
+        text-transform:uppercase;
+        cursor: pointer;
+        }
+
+
+
